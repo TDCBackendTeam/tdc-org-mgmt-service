@@ -10,6 +10,8 @@ public interface InstituteService {
 
     List<Institute> getAllInstitutes();
 
+     List<String> getInstituteCodes();
+
     void deleteInstitute(int id);
 
     Institute updateInstitute(int id, Institute updatedInstitute);

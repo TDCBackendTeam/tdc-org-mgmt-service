@@ -34,7 +34,7 @@ public class InstituteController {
     }
     @GetMapping("/name")
     public List<String> getAllInstitutesCode() {
-        logger.info("Fetching all institutes");
+        logger.info("Fetching all institutes codes");
         return instituteServiceImpl.getInstituteCodes();
     }
 
